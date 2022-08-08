@@ -42,7 +42,7 @@ const Signup = () => {
         position: "bottom",
       });
       return;
-    }
+    }else setPicLoading(false)
     console.log(name, email, password, pic);
     try {
       const config = {
